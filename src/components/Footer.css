@@ -1,0 +1,32 @@
+.Footer {
+  border-top: 1px solid #eaecf0;
+  width: 100%;
+  margin: 64px auto 32px auto;
+  padding-top: 32px;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 16px;
+  align-content: flex-start;
+}
+.Footer__text {
+  color: #667085;
+  font-size: 14px;
+}
+.Footer__link img {
+  width: 99.1px;
+  height: 24px;
+}
+
+/* Tablet up */
+@media (min-width: 560px) {
+  .Footer {
+    grid-template-columns: repeat(3, 1fr);
+    width: 85%;
+  }
+  .Footer__text {
+    text-align: center;
+  }
+  .Footer a:last-of-type {
+    text-align: right;
+  }
+}

@@ -1,0 +1,13 @@
+.Links {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 24px;
+  width: 100%;
+  padding-top: 32px;
+}
+@media (min-width: 560px) {
+  .Links {
+    padding: 24px calc(144px - 16px);
+    padding-top: 56px;
+  }
+}

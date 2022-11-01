@@ -1,0 +1,22 @@
+.Link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaecf0;
+  border: 1px solid #eaecf0;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  color: inherit;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s linear;
+}
+
+.Link:hover {
+  background-color: #d0d5dd;
+}
+.Link:disabled {
+  background-color: #fcfcfd;
+}
